@@ -1,10 +1,11 @@
 import React,{Fragment} from 'react';
 import './App.css';
+import Lifecycle from './lifecycle/lifecycle';
 
 const App = ()=> {
   return (
         <Fragment>
-           hello world
+           <Lifecycle />
         </Fragment>
   );
 }
